@@ -1,7 +1,7 @@
 import ollama
 
 PROMPT = """
-ONLY Generate an ideal Dockerfile for {language} with best practices.
+ONLY Generate an ideal Dockerfile for {language} with best practices. Do not provide any description
 Include:
 - Base image
 - Installing dependencies
