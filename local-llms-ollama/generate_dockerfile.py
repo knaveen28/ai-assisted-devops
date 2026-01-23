@@ -3,7 +3,7 @@ import ollama
 # preparing a prompt for generating a Dockerfile for a given programming language
 
 PROMPT = """
-ONLY Generate an ideal Dockerfile for language. Do not provide any description
+ONLY Generate an ideal Dockerfile for {language} with best practices. Do not provide any description
 Include:
 - Base image
 - Installing dependencies
